@@ -1,0 +1,209 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    box-sizing:border-box;
+    
+}
+
+body {
+    height: 100vh;
+    font-weight: 400
+}
+
+
+header {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+footer {
+    height: 300px;
+    background-color: hsl(243, 87%, 12%);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+
+.links {
+    display: flex;
+    align-items: center;
+    margin-right: 15px;
+}
+
+
+
+.logo {
+    margin: 15px;
+}
+
+a {
+    margin: 0 10px; 
+    color: #000;
+    text-decoration: none;
+}
+
+footer a {
+    color: #fff;
+}
+
+li {
+    list-style: none;
+}
+
+.row1 , .row2 , .row3{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.text1 h2 , .text2 h2 , .text4 h2{
+    font-weight: 400px;
+    padding-left: 20px;
+    margin-bottom: 20px;
+}
+
+.text1 p , .text2 p , .text3 p , .text4 p{
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.text1 input {
+    position: relative;
+    left: 20px;
+    width: 300px;
+    height: 25px;
+}
+
+.text1 button{
+    position: relative;
+    left: 30px;
+    width: 150px;
+    height: 30px;
+    border:none;
+    border-radius: 3px;
+    box-shadow:  3px 2px 5px hsl(0, 0%, 75%);
+    background-color: hsl(224, 93%, 58%);
+    cursor: pointer; 
+
+}
+
+.text2 button {
+    height: 25px;
+    width: 150px;
+    display: flex;
+    justify-content: space-between;
+    border: none;
+    background-color: #fff;
+    border-bottom: 2px solid hsl(170, 45%, 43%); 
+    color: hsl(170, 45%, 43%);
+    cursor: pointer; 
+}
+
+
+.text2 .arrow{
+    position: relative;
+    left: 7;
+    border-width: thin;
+    border-radius: 50%;
+    background-color: hsl(170, 45%, 43%) ;
+
+}
+
+.text3 {
+    position: relative;
+    bottom: 200px;
+    left: 50px;
+    width: 25%;
+    background-color: hsl(240, 75%, 98%);
+    border-radius: 7px;
+    box-shadow: 2px 4px  hsl(0, 0%, 75%);
+}
+
+.text3 .profile {
+    display: flex;
+    
+}
+
+.text3 h4  {
+    position: relative;
+    top: 50px;
+    left: 0px;
+}
+
+.profile p {
+    position: relative;
+    top: 70px;
+    right: 90px;
+}
+
+.text3 img{
+    border-radius: 50%;
+}
+
+.row3 {
+    background-color: hsl(238, 22%, 44%);
+    height: 300px;
+}
+
+.text4 {
+    width: 50%;
+}
+
+.text4 .sign_in {
+    width: 50%;
+    display: flex; 
+    align-items: center;
+}
+
+.text4 .sign_in input {
+    width: 50%;
+    padding: 10px; 
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+.text4 .sign_in .button {
+    height: 30px;
+    border:none;
+    border-radius: 3px;
+    box-shadow:  3px 2px 5px hsl(0, 0%, 75%);
+}
+
+
+.column1 .fr_email{
+    position: relative;
+    top: 30px;
+    right: 205px;
+    
+   
+}
+
+
+
+.fr_nav nav .n1 , .n2{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    
+}
+
+.fr_nav nav .n1 {
+    position: relative;
+    right: 150px;
+    top: 40px;
+}
+
+.fr_nav nav .n2{
+    position: relative;
+    left: 50px;
+    bottom: 35px;
+
+}
+
